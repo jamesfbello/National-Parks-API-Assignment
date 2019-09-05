@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+    background: darkgreen;
+    color: lightyellow;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+
+  .app-container {
+    margin-top: 15%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  
+  h1 {
+    color: rgb(171, 197, 24);
+  }
+  
+  .hidden {
+    display: none;
+  }

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>National Parks Search</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <main role="main" class="container">
+            <section class="app-container">
+            <form id="search-form">
+                <h1>Search U.S. National Parks</h1>
+                <p>
+                Enter the state for some national parks suggestions
+                </p>
+                <input
+                type="text"
+                id="state-name-input"
+                class="form-control"
+                placeholder="Enter a state"
+                />
+                <br />
+                <p>
+                Number of parks you want to review
+                </p>
+                <input
+                type="text"
+                id="number-input"
+                class="form-control"
+                placeholder="Default 10 park results"
+                />
+                <br />
+                <input
+                id="submit-button"
+                class="btn btn-primary"
+                type="submit"
+                value="Submit"
+                />
+            </form>
+            </section>
+            <section id="results-list" class="container hidden">
+            <p>Here are your park results</p>
+            </section>
+        </main>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="index.js" async defer></script>
+    </body>
+</html>
