@@ -6,10 +6,8 @@
   }
   
 
-  .app-container {
-    margin-top: 15%;
-    margin-left: 10%;
-    margin-right: 10%;
+  .main-container {
+    margin: auto;
   }
   
   h1 {
