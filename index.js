@@ -72,8 +72,6 @@ function displayResults(responseJson) {
         <h4>${responseJson.data[i].description}</h4>
         <p> <p>
         </div>
-        //<div class="park-website">
-        //<a href="${responseJson.data[i].url}">Visit Park's Website</a>
         <div class="park-website">
         <a href="${responseJson.data[i].url}">Visit Park's Website</a>
         </div>
